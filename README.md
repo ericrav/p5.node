@@ -1,5 +1,9 @@
 # p5.node
 
+<a href="https://www.npmjs.com/package/@ericrav/p5.node">
+  <img src="https://img.shields.io/npm/v/@ericrav/p5.node">
+</a>
+
 Run [p5.js](https://p5js.org/) sketches on the server in Node.js with [node-canvas](https://github.com/Automattic/node-canvas)
 and [jsdom](https://github.com/jsdom/jsdom).
 
@@ -8,11 +12,11 @@ and [jsdom](https://github.com/jsdom/jsdom).
 ## Quick Start
 
 ```
-npm i p5 p5.node
+npm i p5 @ericrav/p5.node
 ```
 
 ```js
-const { setupP5, getCanvas } = require('p5.node');
+const { setupP5, getCanvas } = require('@ericrav/p5.node');
 const p = setupP5(require('p5'));
 
 const fs = require('fs');

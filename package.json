@@ -1,11 +1,16 @@
 {
-  "name": "p5.node",
+  "name": "@ericrav/p5.node",
   "version": "1.0.0",
   "description": "Run p5 global mode in Node.js",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": "github:ericrav/p5.node",
+  "homepage": "https://github.com/ericrav/p5.node",
   "keywords": [
     "p5",
     "node",
