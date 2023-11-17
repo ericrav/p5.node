@@ -1,0 +1,17 @@
+{
+  "name": "p5.node",
+  "version": "1.0.0",
+  "description": "Run p5 global mode in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "p5",
+    "node",
+    "canvas",
+    "jsdom"
+  ],
+  "author": "Eric Rabinowitz",
+  "license": "MIT"
+}
