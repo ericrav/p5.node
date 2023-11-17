@@ -13,5 +13,12 @@
     "jsdom"
   ],
   "author": "Eric Rabinowitz",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "2.11.2",
+    "jsdom": "22.1.0"
+  },
+  "devDependencies": {
+    "p5": "^1.8.0"
+  }
 }
