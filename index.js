@@ -1,5 +1,6 @@
 const { JSDOM } = require('jsdom');
 const { implForWrapper } = require('jsdom/lib/jsdom/living/generated/utils');
+const canvas = require('canvas');
 
 const dom = new JSDOM(`<!DOCTYPE html>`);
 
@@ -9,6 +10,7 @@ global.document = dom.window.document;
 global.screen = dom.window.screen;
 global.navigator = dom.window.navigator;
 global.HTMLCanvasElement = dom.window.HTMLCanvasElement;
+global.ImageData = canvas.ImageData
 
 /**
  * Setup p5 instance for use in node
